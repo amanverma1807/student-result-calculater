@@ -105,7 +105,7 @@ for row in range(2,ws.max_row+1):
             char = get_column_letter(i)
             ws[char + str(row)].fill = PatternFill(start_color="FFC7CE",end_color="FFC7CE",fill_type='solid')
 
-# Highlighting fail students rows in red
+# saving final report
 
 
 os.makedirs('output_folder', exist_ok=True)
