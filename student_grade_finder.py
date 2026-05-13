@@ -11,7 +11,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.styles import fonts, PatternFill
 import os
 
-# Importing required libraries
+# loading excel file as input
 
 
 wb = load_workbook('C:\\python projects\\student grade finder.v1.1\\students number.xlsx')
