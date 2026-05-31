@@ -14,7 +14,7 @@ import os
 # loading excel file as input
 
 
-wb = load_workbook('C:\\python projects\\student grade finder.v1.1\\students number.xlsx')
+wb = load_workbook('student grade finder.v1.1\\students number.xlsx')
 ws = wb.active
 # Adding new column headers
 
